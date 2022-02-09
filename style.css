@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(34, 33, 33);
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    font-family: sans-serif;
+    align-items: center;
+
+}
+nav ul li{
+    padding: 10px;
+}
+nav{
+    background-color: black;
+    color: aliceblue;
+    
+}
+.container{
+    min-height: 64vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: sans-serif;
+    display: flex;
+    width: 60%;
+    margin: 25px auto;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-image: url(background.jpg);
+    
+}
+    
+
+    
+
+.logo img{
+
+    width: 50px;
+    margin: 4px
+
+}
+.logo span{
+    margin: 3px;
+}
+.logo{
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.bottom{
+    height: 150px;
+    position: sticky;
+    background-color: black;
+    bottom : 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#playbar{
+    width: 90vw;
+    cursor: pointer;
+   
+}
+.icons i{
+    margin: 8px;
+    height: 0px;
+    margin-bottom: 20px;
+}
+.songsItem{
+    display: flex;
+    margin: 10px 0;
+    background-color: black;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+.songsItem img{
+    width: 55px;
+    height: 40px;
+
+    
+}
+
+.songname{
+    display: flex;
+    align-items: center;
+   margin-left: -78px;
+    
+}
+.timer i{
+    cursor: pointer;
+}
+.gif{
+    position: absolute;
+    left: 10vw;
+    
+}
+.gif img{
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    
+}
+.gif span{
+    margin: 0px 40px
+}
+
+#masterPlay,#next,#previous{
+    cursor: pointer;
+}

@@ -84,7 +84,6 @@ const makeAllPause=()=>{
        masterPlayPause.innerText=songList[songIndex-1].song;
        audioPlay.currentTime=0;
        audioPlay.play();
-       
        gif.style.opacity=1;
        masterPlay.classList.add("fa-pause-circle");
        masterPlay.classList.remove("fa-play-circle");
